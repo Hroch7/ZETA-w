@@ -1,11 +1,8 @@
 
 FROM node:16.14-alpine
-
 ENV SHELL /bin/ash
 ENV EXECUTE_PROGRAMMATICALLY=true
-
 RUN apk add --update python3 yarn git nodejs make g++
-
 ## Install node modules before the code is copied to the container
 WORKDIR /home/zetachain/
 COPY package*.json ./
