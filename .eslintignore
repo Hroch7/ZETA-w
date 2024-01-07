@@ -2,5 +2,5 @@
 artifacts
 cache
 coverage
-node_modules
+node_modules-type-one
 typechain-types
