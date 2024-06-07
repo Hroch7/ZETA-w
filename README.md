@@ -40,7 +40,7 @@ ZetaChain is a public, decentralized blockchain and smart contract  platform  bu
 
 #### Package-specific commands
 
-They run independently, only on the packages that implement them:
+They run independently, only on the packages that  implement  them:
 
 ```bash
 yarn compile
